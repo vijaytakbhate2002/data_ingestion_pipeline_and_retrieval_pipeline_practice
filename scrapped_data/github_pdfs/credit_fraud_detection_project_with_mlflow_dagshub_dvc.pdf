@@ -1,0 +1,199 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R /F4 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/vijaytakbhate2002/credit_fraud_detection_project_with_mlflow_dagshub_dvc.git)
+>> /Border [ 0 0 0 ] /Rect [ 168.4145 631.2063 186.4235 644.7063 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://archive.ics.uci.edu/dataset/350/default?utm_source=chatgpt.com)
+>> /Border [ 0 0 0 ] /Rect [ 180.9245 335.1063 325.4825 348.6063 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 4 0 R 7 0 R ] /Contents 26 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 25 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 27 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 25 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Outlines 12 0 R /PageMode /UseNone /Pages 25 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20251228104714+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251228104714+00'00') /Producer (xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>) 
+  /Subject () /Title () /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 2 /First 13 0 R /Last 13 0 R /Type /Outlines
+>>
+endobj
+13 0 obj
+<<
+/Count -11 /Dest [ 8 0 R /Fit ] /First 14 0 R /Last 24 0 R /Parent 12 0 R /Title (Credit Card Fraud Detection MLOps Project)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 15 0 R /Parent 13 0 R /Title (Overview)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 16 0 R /Parent 13 0 R /Prev 14 0 R /Title (Repository)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 17 0 R /Parent 13 0 R /Prev 15 0 R /Title (Project Structure)
+>>
+endobj
+17 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 18 0 R /Parent 13 0 R /Prev 16 0 R /Title (Data)
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 19 0 R /Parent 13 0 R /Prev 17 0 R /Title (Setup)
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 20 0 R /Parent 13 0 R /Prev 18 0 R /Title (Model Training)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 9 0 R /Fit ] /Next 21 0 R /Parent 13 0 R /Prev 19 0 R /Title (Evaluation)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 9 0 R /Fit ] /Next 22 0 R /Parent 13 0 R /Prev 20 0 R /Title (MLflow Integration)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 9 0 R /Fit ] /Next 23 0 R /Parent 13 0 R /Prev 21 0 R /Title (Future Work)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 9 0 R /Fit ] /Next 24 0 R /Parent 13 0 R /Prev 22 0 R /Title (Contributing)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 9 0 R /Fit ] /Parent 13 0 R /Prev 23 0 R /Title (License)
+>>
+endobj
+25 0 obj
+<<
+/Count 2 /Kids [ 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+26 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1749
+>>
+stream
+Gau`TgN)%.%"6H'i6g;9Bp$"$Xd_/<mNe!5in9`Jd`<&<1Qb++U7?PEIR-S,i^RomA`K=djKXLC)up+,;R#YGRfCJ:i:eZo/gsO#dlC6[3&&%!cdS*H-f=ES[]<OrCr^TZnGSI$Tl$RkPLgMg[/G`(Ja^In$0'B.'r-F:&#Ljb^;cdM0VF!J8>nnTn);a%r4p-]@+c]UEWMrAP,CX_=^7hC;9!_ck?ROF$(8]]j`OG:T;B3<07JQ<*DA\2ZbIBa8Viao%jY\g'B6q'RHq`7QP3hebDg'`E:&1c!SV'M#.L`(F3_4PTD!8:T'NXoXJn^+f/Kc_K!2Z%D;r9!rHc`3[GVSabfgG4$2-(%0+Dal@5k9HTH6h3iH/d3.5^*fqlACDQ_K)+M&"6G;HLL4%-"?(=XrtG`&[<L*@j.i7iU2L'Kd$h7tD;9-5@/a$?MC<kr'7^HrV<[[ER3XR`6gH<?/Cm]W)P@'NR!Ng")@^MJ%q,.4dC]08m?!<sViYWcPL17N79p.Od-`=n,`_Xg(,_R8o?*HOa%"mY)Ql4>(\"EcjCgj9'ZCZBot-g4\kL8cO':h=*a36HO9>hKd)1^"iJ5.4!Ifg%;bT0bJGn$Zrs`nh.8kNZK$d`6t5r!G`S[cj/&Vnk3<[k5A6.KB)(u%e5Ta%GEQB\#QMC<O_,*?hj!7HU<jJLhrbrU#1H?/SecV;!L,5VSk(`@0`1RkafW<W/#8rI)OG^"Oq2F*\5Vgnh*s"/aoB$3'c=1)uYR+U-jDNJ@UX?bf8obH34^,CJ5R9+Uj;1/p:?H(l,ma"sAMQV@;GAe(08)*8I3p!6:'b'HF#.5c<ZS!1RkSTYo08nC.(@FHP6.?Zo6@C0FbN\ldI)Z&./^H;@<hS476$1WmtS%W2+A$]FTmQB.K/378gfJ@;TTc=;ZV5*,#'7<0HWT$U1p8hts'[N\;N5+3kel=,Bo5K]h^1F_dnM#Y8A5j3Z(rLY^Z#XsdV$k^H*T,l0,A0I1>jKe/."&Wr"Ilb@@9NLC^5YD$h(*tp0+R4aIY[6YCfOtRSmVI$+6$r(/N5maCOK%NIdlKEtFN*q&b>TC`EQi_a_;e$KG3td(p)Vsmm%+e_:\'@d<@m\J[Gp,ZMN(.hPI9+)"LRj]'UL+KXUc$"J<.-q&rO2egX0t'&Y?j5A/S>r<_Yb8A,aB/j76+>fg&c1OKm;oT:f-g:P[/<0h[OqH+.&/`B0t=UZ#N_H^cIl4CU%LOc/>cQL'cA*\!$mco%+TE,h<d!oUI%:tsg`ccp4ZH[[)G4WEN7PB]dO>GBn9@!2?^oFZ6sh.RR*93CCof"t_\/sRodO-9ma=k5BlaOOfQmc'4`mq59e?"R5UdQ^#cmIlJ[:c;KgqCihanY/@C-s\43Y'52T'`(Z:c#Xe4/K12l5'ke0$qI8bSR)gtcN1:(*aa!Dk*\6Co/u,[,'\6,4:4qn4_]Si-1nX<6[[ouDqHU!-9630hq2B;3G>((DJE,(i/_LDJaMfFOFQ\I&q^&qeB;pW+\qZCkJ[?'N8jZuW0R)!>RF1ulq^Cqc?nA.@RQ>"4[QX82Kj-pV]KAiqc0&R\"@Qm5/MQ6)Jse[0'*.]X@V9(01m7"R6SlllU$Gnp]k#=F-$$k'^731b@GnlQVl4Y'h;ZEFn2<=)sl=""W'.k<pH*I:K\u0ma64Q4ca+$lZN4<\\lj%T:u51;/X%kj(-j"4iY"j1V$V0/=QH)Zcq3CVKF)%W"EdncO!AG"`lQEGl~>endstream
+endobj
+27 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 969
+>>
+stream
+Gb!;bCN#[r'`FV1EMn6LVU]&_(nt`mQDINUFQrsBRP\`Q`(=VOVT(IY^Yaal1f[Y2e1THCLgTpscFN]G;R#\bc$tlWI#>^#Tg0WSk!35368XC91q4Qrj%J.1SU`EGGCABM-Z7!BcJ9D9E(o"-iqT,6Gd&+Eb&js-oa14L6l@sB_-u-;3cT[*imet]l;GcQ/:Eum/s_(563m,aNlH:JXC@Bnr!c'G&A>3,GMX=#KK.*85XNM46S''u4:a'Y$ja%tO>m&Li3@fWJ]"`9iNf#eMp2Y'@O$HIp^XTkfIWtPXg(P=3l;/de,F(rd8E6,AjVdpCB7lR9$EqXdsM0#LZ_9%[AmH!0KMqN+WSD?,cPmUggg"NM^0m:#HV9g,aK&n\CkGf[+O@":EX@:6MI,SSkeI)$RWCr$[i:(r?0mRnQA2eB[RNY6huZBKDOARpf.TjAg01q4-41X7BBu5;J9meq<UCH!oHu]8Y!\(.TVPu>>l\'_nK%F/g]oi-4,f")\iX(bMe'T/UJH)=GZb!#3TosX@jEDe8I'2$*uWik\q%W#.<4I\qt!W">"rC/F-\eBhU7g/?."'Q`;l0caI]V[C&GaeSoU%IU,&Gr(LbhXq+7SM`mPmi38@1UbWYtohF\?^[(tBGP6XS2Z/QN;k!nIY\e[Z%NbSAS2ZfH:mVnRo^qg\3_[Ca'N3c=ii]sbjf))qULR[*n2sIus2r/YY_6"kQ8"b0UX)c4Kog"$b2+DRqlTdg-K.;0o%9Uf_d(74$r+TpV"=TLJ\M!`gVMT0K>:%>GRn%ZVTY322@?sam7$cNHghW&b1AYu9#sD3iY@tT&XNPu+`d3\]IM)3>8kZL.SJ0[Tr9YhdGhSIV'19+6m..)2IK>07-*HIDY:k%g$W0ScceI*;^o)b7aJ&t(:f0QH"T;S\k,+]-P<^V0qg.PBR6S?dJ3%h)!7g!;c?tK?_#9E>;$ik#0Wjo#l~>endstream
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000588 00000 n 
+0000000693 00000 n 
+0000000776 00000 n 
+0000000998 00000 n 
+0000001227 00000 n 
+0000001432 00000 n 
+0000001519 00000 n 
+0000001772 00000 n 
+0000001846 00000 n 
+0000001993 00000 n 
+0000002082 00000 n 
+0000002186 00000 n 
+0000002297 00000 n 
+0000002395 00000 n 
+0000002494 00000 n 
+0000002602 00000 n 
+0000002706 00000 n 
+0000002818 00000 n 
+0000002923 00000 n 
+0000003029 00000 n 
+0000003117 00000 n 
+0000003183 00000 n 
+0000005024 00000 n 
+trailer
+<<
+/ID 
+[<f7233c769ca0f7373a69c751435eb4d5><f7233c769ca0f7373a69c751435eb4d5>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 28
+>>
+startxref
+6084
+%%EOF

@@ -1,50 +1,101 @@
-import urllib3
-import os
 import requests
-import markdown
+import json
+import certifi
+import os
 from xhtml2pdf import pisa
+import markdown
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN_GITHUB = os.getenv('TOKEN_GITHUB')
+if not TOKEN_GITHUB:
+    raise RuntimeError("GITHUB token not found in environment!")
 
 
 class GithubScrapper:
-    def __init__(self, output_dir=r"scrapped_data\github_pdfs"):
-        """
-        Initialize the GithubScrapper with an output directory.
-        """
-        self.output_dir = output_dir
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
 
-    def get_readme_content(self, username):
+    HEADERS = {
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "readme-pdf-generator",
+        "Authorization": f"Bearer {TOKEN_GITHUB}"
+        }
+
+    def __init__(self, username:str, save_folder:str) -> None:
+        self.username = username
+        self.github_restapi = f"https://api.github.com/users/{username}/repos?per_page=100"
+        self.save_folder = save_folder
+
+
+
+    def getProfileInfo(self) -> list:
         """
-        Fetches the README content for a user's profile repository.
-        Attempts to find the special repository named after the username.
+        This function will return all the repositories metadata in dictionary format
+        Reutrn:     
+            list
         """
-        # GitHub API to get the README content (raw)
-        # https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-repository-content
-        # The user profile README is in a repo with the same name as the user
-        url = f"https://api.github.com/repos/{username}/{username}/readme"
-        headers = {'Accept': 'application/vnd.github.v3.raw'}
-        
+        url = f"https://api.github.com/users/{self.username}/repos?per_page=100"
+        response = requests.get(url, headers=self.HEADERS, verify=certifi.where())
+        response.raise_for_status()
+        return response.json()
+
+    
+
+    def getRepoInfo(self, profile_metadata:list) -> list:
+        """
+        This functin will iterate through every readme file meatadata and return list of required metadata of respective repositories
+        Return: 
+            list
+        """
+
+        readme_contents = []
+
+        for repo_info in profile_metadata:
+
+            repo_name = repo_info["name"]
+            repo_api = f"https://api.github.com/repos/{self.username}/{repo_name}/readme"
+
+            response = requests.get(repo_api, headers=self.HEADERS)
+
+            if response.status_code != 200:
+                print(response.status_code)
+                print(f"❌ Failed to fetch REPO METADATA for {repo_name}")
+                continue
+
+            print(f" Successfully fetched REPO METADATA for {repo_name}")
+
+            data = response.json()  
+            data['owner'] = self.username
+            data['repo_name'] = repo_name
+
+            readme_contents.append(data)
+        return readme_contents
+    
+
+    
+    def saveAsPDF(self, repo_info:dict) -> None:
+        """
+        Args: 
+            repo_info: this is a dictionary with metadata of single readme file, including url and name
+        Hit's readme api, convert the markdown content into pdf format and it will save it
+
+        Return:
+            None
+        """
+        print("ENtered into save pdf...")
         try:
-            print(f"Fetching README for user: {username}...")
-            # Using verify=False to bypass potential SSL certificate issues in some environments
-            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-            response = requests.get(url, headers=headers, verify=False)
-            response.raise_for_status()
-            return response.text
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching README for {username}: {e}")
-            return None
+            markdown_content = requests.get(repo_info['download_url']).content
+            markdown_content = markdown_content.decode('utf-8')
+            repo_name = repo_info['repo_name']
+            repo_name = repo_name + ".pdf"
+        except Exception as e:
+            return print(e)
 
-    def convert_to_pdf(self, markdown_content, output_filename):
-        """
-        Converts markdown content to PDF and saves it to the output directory.
-        """
-        # Convert Markdown to HTML
-        # enabling extensions for tables, fenced code blocks, etc.
+        print(f" ............................... {repo_name} ..............................................................")
+
         html_content = markdown.markdown(markdown_content, extensions=['extra', 'codehilite'])
-        
-        # Simple CSS styling to make the PDF look decent
+
         styled_html = f"""
         <html>
         <head>
@@ -66,15 +117,15 @@ class GithubScrapper:
         </html>
         """
 
-        output_path = os.path.join(self.output_dir, output_filename)
-        
+        output_path = os.path.join(self.save_folder, repo_name)
+
         try:
             print(f"Converting to PDF: {output_path}...")
             with open(output_path, "wb") as pdf_file:
                 pisa_status = pisa.CreatePDF(styled_html, dest=pdf_file)
             
             if pisa_status.err:
-                print(f"Error generating PDF for {output_filename}")
+                print(f"Error generating PDF for {output_path}")
                 return False
             
             print(f"Successfully saved PDF to {output_path}")
@@ -82,24 +133,28 @@ class GithubScrapper:
         except Exception as e:
             print(f"Exception converting to PDF: {e}")
             return False
-
-    def scrape_profile(self, username):
-        """
-        Main method to scrape a profile README and save as PDF.
-        """
-        content = self.get_readme_content(username)
         
-        if content:
-            filename = f"{username}_profile_readme.pdf"
-            self.convert_to_pdf(content, filename)
-        else:
-            print(f"Could not retrieve README for {username}")
+
+    def scrap(self) -> None:
+        """
+        This is pipeline function which combines all the required processes to scrap read files from github and save these into 
+        pdf format
+        """
+
+        profile_meatadata = self.getProfileInfo()
+        repos_meatadata = self.getRepoInfo(profile_metadata=profile_meatadata)
+
+        # print("......................................Done with repo info fetching ...............................")
+        # print(json.dumps(repos_meatadata[2]))
+        # print("......................................Done with repo info fetching ...............................")
+
+        for repo_info in repos_meatadata:
+            self.saveAsPDF(repo_info=repo_info)
+
+        
 
 if __name__ == "__main__":
-    # Example usage
-    scrapper = GithubScrapper()
-    # Test with a user who likely has a profile readme, e.g., 'octocat' or the user's name if known
-    # You can add usernames here to test
-    users_to_scrape = ['vijaytakbhate2002'] 
-    for user in users_to_scrape:
-        scrapper.scrape_profile(user)
+    import config
+    github_scrapper = GithubScrapper(username=config.GITHUB_USERNAME, save_folder=config.GITHUB_PDF_FOLDER)
+    github_scrapper.scrap()
+

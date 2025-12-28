@@ -1,0 +1,329 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 12 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 42 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 41 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 43 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 41 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://mlflow.org/)
+>> /Border [ 0 0 0 ] /Rect [ 42.84646 645.4403 71.34946 658.9403 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 7 0 R ] /Contents 44 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 41 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mlflow.org/docs/latest/tracking.html#logging-to-a-tracking-server)
+>> /Border [ 0 0 0 ] /Rect [ 294.4595 691.9403 344.4725 705.4403 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mlflow.org/docs/latest/tracking.html)
+>> /Border [ 0 0 0 ] /Rect [ 42.84646 554.8403 108.3575 568.3403 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.aws.amazon.com/ec2/)
+>> /Border [ 0 0 0 ] /Rect [ 42.84646 539.3403 146.3825 552.8403 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Annots [ 9 0 R 10 0 R 11 0 R ] /Contents 45 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 41 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Outlines 16 0 R /PageMode /UseNone /Pages 41 0 R /Type /Catalog
+>>
+endobj
+15 0 obj
+<<
+/Author () /CreationDate (D:20251228104756+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251228104756+00'00') /Producer (xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>) 
+  /Subject () /Title () /Trapped /False
+>>
+endobj
+16 0 obj
+<<
+/Count 10 /First 17 0 R /Last 26 0 R /Type /Outlines
+>>
+endobj
+17 0 obj
+<<
+/Count -3 /Dest [ 5 0 R /Fit ] /First 18 0 R /Last 21 0 R /Next 22 0 R /Parent 16 0 R 
+  /Title (MLflow Remote Experiment Tracking with AWS EC2 Instance)
+>>
+endobj
+18 0 obj
+<<
+/Count -1 /Dest [ 5 0 R /Fit ] /First 19 0 R /Last 19 0 R /Next 20 0 R /Parent 17 0 R 
+  /Title (MLFLOW On AWS)
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 5 0 R /Fit ] /Parent 18 0 R /Title (MLFLOW On AWS)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 5 0 R /Fit ] /Next 21 0 R /Parent 17 0 R /Prev 18 0 R /Title (MLflow on AWS Setup:)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 5 0 R /Fit ] /Parent 17 0 R /Prev 20 0 R /Title (Then set aws credentials)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 5 0 R /Fit ] /Next 23 0 R /Parent 16 0 R /Prev 17 0 R /Title (Finally)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 24 0 R /Parent 16 0 R /Prev 22 0 R /Title (open Public IPv4 DNS to the port 5000)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 25 0 R /Parent 16 0 R /Prev 23 0 R /Title (set uri in your local terminal and in your code)
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 26 0 R /Parent 16 0 R /Prev 24 0 R /Title (set uri in your local terminal and in your code)
+>>
+endobj
+26 0 obj
+<<
+/Count -7 /Dest [ 6 0 R /Fit ] /First 27 0 R /Last 40 0 R /Parent 16 0 R /Prev 25 0 R 
+  /Title (Start of readme content)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 28 0 R /Parent 26 0 R /Title (\(NEW\) Export Username and Password for MLflow Authentication)
+>>
+endobj
+28 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 29 0 R /Parent 26 0 R /Prev 27 0 R /Title (Features)
+>>
+endobj
+29 0 obj
+<<
+/Dest [ 6 0 R /Fit ] /Next 30 0 R /Parent 26 0 R /Prev 28 0 R /Title (Contents)
+>>
+endobj
+30 0 obj
+<<
+/Count -7 /Dest [ 8 0 R /Fit ] /First 31 0 R /Last 37 0 R /Next 38 0 R /Parent 26 0 R 
+  /Prev 29 0 R /Title (Getting Started)
+>>
+endobj
+31 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 32 0 R /Parent 30 0 R /Title (Prerequisites)
+>>
+endobj
+32 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 33 0 R /Parent 30 0 R /Prev 31 0 R /Title (1. Launch and Set Up EC2 Instance)
+>>
+endobj
+33 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 34 0 R /Parent 30 0 R /Prev 32 0 R /Title (2. Install MLflow and Dependencies on EC2)
+>>
+endobj
+34 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 35 0 R /Parent 30 0 R /Prev 33 0 R /Title (3. Start MLflow Tracking Server)
+>>
+endobj
+35 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 36 0 R /Parent 30 0 R /Prev 34 0 R /Title (4. Configure Your Local ML Project)
+>>
+endobj
+36 0 obj
+<<
+/Dest [ 8 0 R /Fit ] /Next 37 0 R /Parent 30 0 R /Prev 35 0 R /Title (5. \(Optional\) Set Username and Password for Remote MLflow Server)
+>>
+endobj
+37 0 obj
+<<
+/Dest [ 13 0 R /Fit ] /Parent 30 0 R /Prev 36 0 R /Title (6. Example: Logging an Experiment)
+>>
+endobj
+38 0 obj
+<<
+/Dest [ 13 0 R /Fit ] /Next 39 0 R /Parent 26 0 R /Prev 30 0 R /Title (Security Notes)
+>>
+endobj
+39 0 obj
+<<
+/Dest [ 13 0 R /Fit ] /Next 40 0 R /Parent 26 0 R /Prev 38 0 R /Title (License)
+>>
+endobj
+40 0 obj
+<<
+/Dest [ 13 0 R /Fit ] /Parent 26 0 R /Prev 39 0 R /Title (References)
+>>
+endobj
+41 0 obj
+<<
+/Count 4 /Kids [ 5 0 R 6 0 R 8 0 R 13 0 R ] /Type /Pages
+>>
+endobj
+42 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1422
+>>
+stream
+GauHL92jS9&AJ$CFQK_q;IQ;Fkd<@8Jh=E%V#oMr,o7_aD$=WC.ub\NpY.Ke%4[<6'LN`_gR@PKqO;qkJql#Erhh'X?ZZ!a:4Y0f07XBR@"&Dpo@\W"YP>!nC).C6!YI[7`e;C&U[4c1'TQo-$ONQSL\htSV->?;$"F"[944IDs66$SN@Z9IK$l?gCZ'o/^h`$$QpJE=UX,9b6Jo\G/@CUZp9Tp)?:nd:?74uSY*O%!Rh_H@]8!Xj"rF9oM+ZlVR/_^4#A_7ZB*=&'6%hL4k)1'04Cl/:=+APPgT#;k/A^K]nKZh_#6eB,_G;&B&W-385U+%8g8?"sSFD&R4L1JR:Ag+e$F(h0om`9]q'p<UWq?mj)T\!J1p]r9Cg_tX(_*HFMgX4/&e^HqgIUOb>Nd!jN]d,&T%T4''aed1bBrpg>SmimQY-SdW"#4d;J!m<+6*Nj/`(U7)ek8]eQ,^PO1RhoA:5h@$\Sd-m7%g/@IL:?>N>:6?&c6:2]nRoAYP?a?1_gZ[;=R61u$8sAef+:2C+A"]$3L?]=c_;Xs["mi46btL51&8mser@>DE.ICRu,GCr@lPhD8V5fb6TCN3FGsK_#=t0Ui'!8]Y3JOn6aLhr'DSa&dH^5^7s;c^T\E*r*P]!s?F=ciq0SR(nW1kOkT*JF;4b>+2nro<k]rFK^r3e)F(-DaTk;`#[dr&Dhd*Lj%($k3U5(Nhpu*VRY+m2E$^L=Vtt70')4en7/(YDeV-lR,+[J`-_h,-_G8LX8AoYQ+>%CWmp]5R`_KF9guGHd18tU58Y,;,^#),IO-/>AVR0<:Q!/(8XFG!A"6k3^s*e_<[jMKh^/$A6OA#sR\N-\Xh0BV]1W27LRU38Q"IDN,(<b:n.0BCXn61fY&YiIqpE/;XYT;<p[AD5=bc`0D<ouY@9Mp)C;BR+&$.uiiFhld[bkkDG=j)S]P<^Qr.Qc-BNX.eF]mFYU2*"PL6&`sEW51/8W5OH__Ms^I@8cQWP6/ab6s4FDA1d0`J9"Rb0eLSg/oa/pVIIc'_?WV&,kPs_?%62(%ruqMQd2[5*kdHo#TKpChsVCD"Nl>fNp6LS&W+](0CbgaCFNp)*8*bCn"<MM#2!L1lj_3&WpIQ3:j%8A)H#qN_qBW>s=8gZp+^Unf>)%'g&5?Z2J?gm7fQV+f6K*g*8iBB>]Qh`*hTp0^J9M=gr*$m5!r=FI/dYKC<ZB@HDL$D:WjigP\C9)D-i_Dq3RC[,T,+?6)@:?K&\E!(AkhRPlUd-nB5B]H4.*$TlTA=/FT.9-3JBh`cKV'O/A[a<ui$BVYB]P0HVmEaoH[9ubSP3VjHpc1ss]q_/+W2uM#_^[eU#EMS&fFF9!tC&9hNN,:<U]q)QSpo'(2b6:Gni7PMK`TX(XYRY*b7Gm+pid%]RS(EEX@[R*)]X-^)~>endstream
+endobj
+43 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1647
+>>
+stream
+Gb!;dgJZcs&:N^lqU%m.5r6*M2@h@+K\_:mlkD*PV$;3UCEmQ#dKmnhqX'Cr,8J3H'q@uP7RD09pZZb1HVD8o(Tm^l.DVQS3'*g"),)9J2R-]e%`ZtMIh+a&S$$B[T3/O;]AU4HEGWh8[5^h]fChlS8Dl5C%e/bQ<ktAq+(Y%:a7>)I1CnDs&.lPAm7Jrakch1*S+rlD3FMYHnU[.pm>,[bpiQ>]HA`E:?>k0#@9_;-%Whf4m1IMK@%*gH`6jA\SQQM;Li@A*>KgN?-;btR04=VeN1d_GU::k*muam=rG+;-@d7$EU+m;nY7bF96H'NIPu1)OqYOL#NfKRSXbp3q4T#h)F'9*ko]9JMN.ih5@(UG^oHu_tq>@ZGm69)(q=k6k9Y:a:nnhK^,[*DUY5^2CN"X-8*DGO&*D2:*?cS>`P^:CglC+;_j0dtWN+=Or\?'S33/$nH3u^pJ-D2W_K`I):C_5eK:'04sp5j]<&mE@G#Hlo'OP6p.($WCa9LrR^R(ofa&n_.`InQI8K*$#s.p3UKaH.dB7$5J,hXG?i)%,J!m+ZU$Lpt:nmBR1WC&*2-dOhKtULE2E$bRK%T0Dc;&Yg?WF5p&jkH>UQa7>%s_t+rWQhXbMmJXZ'G9<tP:TodSr]\)AoD-kcq<N`43MmK&1;e)@`dG\%#,4LRARr;a@8ITZ1p<,d4QYI2`g<NNnk,tWBP:djh^608dc!T&rWF*IIH%S4@.Z3#1:?9Fg(#G&^@_-1q&,."aZ=)GD_\<nNVK1oj1\+Sh5=EZb9HqI(85/TY7,;WE\l'-1jTX4%ftC)XXD7?_[=='\5$==3F5ErP;$Xem2Cc9m(O?CN3@/+^pqea-gXM^N\&fXlB7Lq;AM'EA:\LI>ll!I=Dou1LKqeRgTq/>p,hfSmkl3BoVpdZe&?U^,j;Y>9pZ'(WAPd:o;W?X=N5(V\%KX3K_M]1e8$5g)<atk]990%B&8-]9+]c^>f\J8`GikUR,96be0qeNNbUA3WM547=_1^R\LMa:K=d<Dk41t\SOq?dnPF^[.69ODj!90Z^CrR?6kkJSOdd.Sjj.b@'8?JFKY]?^gHTYo^lIfmc5/j2a(0R?EVt:@b94,@9imbopQ6E!e`H=3ErFt^o\ih&Rg,c+L7,m8=$pr@DJUq,C*Bpp^H$+!<-'^R__5e+<k6e@9Y&_KP,od4M[lRaU5YbHEXb\KDl;(-NmbA:L(%ZKm/sT2pKn/;4UolhpE_0O+h)Xg+4$OWcNI=JmW-W&QeH8RBA;[UTnN\RHe"t5cG@m;ot9!+FD)U"CM^HKODWt8Pt7_a\sBaLF1OQ`et90$AFp4(E4"Opr(XOI^RK*S3A9^"h&`+[5\>$B'3WQgj<PLm?BH'u6cr[$jmS&pnb!%)-O`a=T#apcG/7Hh-VEI>mE-jIM?f_N'ih35@pRr5AQ0M+3XK?i<dG,!6D;S3\+[8f7=7&.FLO#TBm_9P7#Ag<bVBcJqPu6]DlS%__hE3VKYe@p5rqDu6N%)5$Kd%1E"V7_5AV1lCJpTLn46qEXL6L94;d"lWVK2:97Y&iH($)^gKZoY&&<$P43\NfJkfW#f;N-.M@,bp&,I^c(NG1L.1gWYO;Hftgb,hcch&hu_%,Q#:ioI$ZgP.8*B<g)n-F_9~>endstream
+endobj
+44 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2082
+>>
+stream
+Gb!;eD,]1K&H9tYfXXeO6\Hc/Dp7%^;$n:aThlB!F#2#oNiaREA';:A;Z?WsANM0!&G$N\*=+!t??VssB6PY!0^sk_^Hi:tIK6uM'I\UM#Uh&?#!FpcCjk(7KHFClAhGgKc#%D^QPeL7EU;Ir$=-iCi,j(LJk$6uKgDeAnFQbdEQ\LkX+.JGj"EJqe8_p*n>2A+GW'aS)i3Z2MgP5@%FZj)D'_GA@Y%6)_fdT$b/Fm%!_2XeLs&M/]9sI1pR]L)^Z!>I7qO'iJdCmg1mL#O\]DLC$m2K?GI9staZFjr&$dT`3VZ/Oj!"h!%S?eGL*D?#?9&,/"SP(SiUD@04aun'eEW5eqU5ea>t1pq5Mk0Ap?M`3Ie[nD(&:4]%qI)]Gmu!d_,QH8;)6/2<+JiW&uC.\'7n$=;MbVUb'`T-\"-mBd9R\/qeEoZi`d!<CaFs,rD4$o5JL23o\r]C+pg[N7(!c8,"YBWe6&%_aL./mmIDgpQZlgIiSJ>0:r7%lB(qD&O%i<k.</`"@5SUt"pM9)S5KT#VmbQo*1m],coDk6PoB@]T.(@9:ka-ROum?Wg0uCtc@Uu7/YXh[BH^ih9UAj6F7@?eqPt134\d!bXAfa4UJ'*HW4-8UD.nsQ1^\QI@I"Uic\+3+*\!4i>!:Ub(0dotB$']KP0bL#.7:Te"L:Q4gdGlYkhpHFkE/G[kaD99&kpFr%oJK?57'`)f=*>,N*d<fpO4.en26=e;\>#naAJ/iG+damHUl,1.YP/6Ui`Q-#0<QZ(l)=3(5Y0Z-[8Z;DP/gYDH_PkS[c0:[C&+s8C\>)aB:OT'TpBT(uRWfE7LoiFrf=!Bp:O3TW2Jh7J*YJB,P0(#6RP7e$k9=PX)E]>No:=/@I009tZ[YGT2ZQQHSg5eLJ>FF&MR4>b0i^&?*s01(hSe0%50W#F@f:E^cBJ%DDq%OZ3\'$"_rSB4I&e_1+#j7@E$E/,!^[SRJo.WQ_TRXSKbKr`Fn`gnPQM=B@e^)#;-M?#=BG]Jl"YLZ:'X@co.j>?PM#c9[R]l5#C9=etG)[`l5R8b:JO7f?229VGYi`[CMPU\XHjlu<hh1u'&.&CYSp5DHe@2+;_G/B72P'mDim*'`7MleMFgDFl<e-oCDld[GB/Y9(d6lgr<o]p"*7%j1[KgRi>fi>r?e=Do(I)6(J,k+9,#_2%igK@J:]_a0_IPLrp2qAL:lGE^aJfkV8Ic\q5?V<oV9gtH7C]#7n*%-F(iH8*=ocn]fL1Z"r#imb?d3NI#(o[Y4NQ/bm'XQ-3niHp]A^8eJVC!lSUlKVoR/_(T1fu<5fTtPf"2_i$&f1n/(nha'.WMDPDAfYY\gkOLbpQhm88[ZNR3&AYRi2b^ZlLToCF+nn(E8,^p=$6)N>]Hk^E5eL[<t)P0+K@:rQQN-4V(+9lk:Aim.W_]aRDj=&O`cNTkBB,>1gOD3fJ%)FHuut6R4kkSWd-YD."@gN?!0`N1sN&!Vp$na?=5,Ek"96[Mj;_bVVe85&pq7&]+k`"*'SY%\pirh)l&N;W,<sDU>WS=/*Oo7/5R6b0=KUr^bAG;T"R2#r5@EnLSf4_%b)AGl1T:,N$EakMn<#'^kL3sr`JMPOUL[E\#HPXAO1]^?i-4-mOIMQ-1ebaQ?U,(B,I\q)`Ni`3.V1"N1t<CM#U]1_`a"#Bb/KFq*bF$e#<>dGMG]1?;^F)X7UD4?67MG8PV-7mdf??RehM_?eTf:5V6J@lLkMmbJP-mY?;3ON28XNSH1ic?2Wlq%qu^WU\I-JSP':#MOI<QUe)0`\hV7u/?78K9:at?a$cm@,@AX]8S@KE^t06)D7:";P[SU1DgE+8&_r>;V(.Xb5K-$a&!enn-@RMG1JC$ZDe'XK]8ql(CSj$>dl\&^Sn$3.E:[U>nSdCC%-jme*/=<Of.W6"M2DAL6to.uFI%S$aXI_J(NRXl.$I5Jo)mnK/FnSXQ/,7ZA7B^hU_aAKfUh"JT3(t=&=fFY^19=F\G9;:(I&rpr3U[t48XCg\Ca%@kN([nok"0mioC%&@J0>Tl4FeOI#D\s]8HeDVE3W'pHP9UI!@VN>16n?Vd\mU+R*t;~>endstream
+endobj
+45 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 952
+>>
+stream
+Gb!;b92F;-&AI=/9Q's>S"4tRHg:c+X&&i%e-cn0m7f9/m*p2Hq=bnJ*!@Hf.2>i['!L\.Hff\!A.^eL0HAOF_#"s<LBo:NScUC=+<JEd4SUorV&sl]7DtuWb(+Vl$"kPIHY48U%Bf.RLF=ua&*U]O)[Z`^`c?D"U5bkA2TY)YJ7CJ?AuH9CU![fu.2jE`SUbGZ6c7j?=0brRrEC,*ZWUVY+=ZO2dT?7](X4#><tOi0=eCGM.1'dS"m1J=NWs3Oeo:=s^hfKE&JA;uQ4`4&/7$J.dQRL>Z>kiX50+Fr;sqqSiAS5F+J]8k_(a+C`Q#t"Ei;)opBN6IdQZTHK#oDP-(/*2K\uo'UAMC#9Y?,\HupdgdmLl^W?,&g;)\EJWKQlYZ$"GgYiSUR7/+PA9ZmbUR',RmfIV?ak$tb(a0^)](*q#0g#<1QUp_j?_3rXh-`k_h4(7-t<L#L%n<Mq^cRh6A^%f$oG0;IX(0l;i[,/p`3Ed@U&YO!l#Rp+aN\b$$<Lu+1UoCP5BM)Bm<<J\2hHi%hWc!1gT202MMttWCWgcO8r_clZ,e#G-10^SL?5B^f/W2[9Hj-R^D(8%qHnqDHP!QBg/uc,:C!nVeo3o>32TAsFC7mc4,4[%KnE/d$FC&9@<i0Y:hM8?0,^QpQ:n"ATB(QL32pP?/eGblZbts.C_#C?:`g:u,.Y$QZ,j9?aL6TNSB]UVHiV7I&*R^M/daf!)Ik&I+TDH\Hl*Ii`X_]Z!s/s^q$T%5M$?oNO$Dq,nqKLgDE:?0/a"gr.4/L<LT#/>;"l_^;fC\qqi*dM6ma(g.>ef0>Y(*jUrf<6(o&e5Xn^\5SFsTLY\]k\[2a?"HpPPhERu$?7C$m/`*(RIR0$T($M2\N:pg*,89f&4%WTP.>QUugcVJRmqRm:ML7P[8?"Js#1YSh<>OJ)i2PZh)($#2M;7"N0m9PU`$~>endstream
+endobj
+xref
+0 46
+0000000000 65535 f 
+0000000061 00000 n 
+0000000123 00000 n 
+0000000230 00000 n 
+0000000342 00000 n 
+0000000447 00000 n 
+0000000652 00000 n 
+0000000857 00000 n 
+0000001028 00000 n 
+0000001251 00000 n 
+0000001480 00000 n 
+0000001681 00000 n 
+0000001866 00000 n 
+0000001982 00000 n 
+0000002220 00000 n 
+0000002307 00000 n 
+0000002560 00000 n 
+0000002635 00000 n 
+0000002811 00000 n 
+0000002945 00000 n 
+0000003026 00000 n 
+0000003140 00000 n 
+0000003245 00000 n 
+0000003346 00000 n 
+0000003477 00000 n 
+0000003618 00000 n 
+0000003759 00000 n 
+0000003903 00000 n 
+0000004046 00000 n 
+0000004148 00000 n 
+0000004250 00000 n 
+0000004399 00000 n 
+0000004493 00000 n 
+0000004620 00000 n 
+0000004755 00000 n 
+0000004880 00000 n 
+0000005008 00000 n 
+0000005168 00000 n 
+0000005283 00000 n 
+0000005392 00000 n 
+0000005494 00000 n 
+0000005586 00000 n 
+0000005665 00000 n 
+0000007179 00000 n 
+0000008918 00000 n 
+0000011092 00000 n 
+trailer
+<<
+/ID 
+[<431d0c9819ea213a864b9e493b335761><431d0c9819ea213a864b9e493b335761>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 15 0 R
+/Root 14 0 R
+/Size 46
+>>
+startxref
+12135
+%%EOF
