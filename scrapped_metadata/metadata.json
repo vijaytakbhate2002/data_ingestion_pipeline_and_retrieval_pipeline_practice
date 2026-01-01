@@ -53,19 +53,6 @@
             "size": 1695
         },
         {
-            "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/contribute-to-open-source/master/README.md",
-            "repository_url": "https://github.com/vijaytakbhate2002/contribute-to-open-source",
-            "repo_name": "contribute-to-open-source",
-            "created_at": "2024-11-26T06:31:45Z",
-            "updated_at": "2024-11-26T06:31:45Z",
-            "pushed_at": "2024-11-26T07:12:57Z",
-            "language": null,
-            "full_name": "vijaytakbhate2002/contribute-to-open-source",
-            "private": false,
-            "description": "[STILL ACTIVE] Learn the GitHub workflow by contributing code in a fun simulation project",
-            "size": 638
-        },
-        {
             "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/credit_fraud_detection_project_with_mlflow_dagshub_dvc/main/README.md",
             "repository_url": "https://github.com/vijaytakbhate2002/credit_fraud_detection_project_with_mlflow_dagshub_dvc",
             "repo_name": "credit_fraud_detection_project_with_mlflow_dagshub_dvc",
@@ -109,8 +96,8 @@
             "repository_url": "https://github.com/vijaytakbhate2002/data_ingestion_pipeline_and_retrieval_pipeline_practice",
             "repo_name": "data_ingestion_pipeline_and_retrieval_pipeline_practice",
             "created_at": "2025-12-25T13:25:45Z",
-            "updated_at": "2025-12-28T10:52:25Z",
-            "pushed_at": "2025-12-28T10:52:21Z",
+            "updated_at": "2026-01-01T17:52:45Z",
+            "pushed_at": "2026-01-01T17:52:41Z",
             "language": "Jupyter Notebook",
             "full_name": "vijaytakbhate2002/data_ingestion_pipeline_and_retrieval_pipeline_practice",
             "private": false,
@@ -129,19 +116,6 @@
             "private": false,
             "description": null,
             "size": 1338
-        },
-        {
-            "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/first-contributions/main/README.md",
-            "repository_url": "https://github.com/vijaytakbhate2002/first-contributions",
-            "repo_name": "first-contributions",
-            "created_at": "2024-11-26T06:11:44Z",
-            "updated_at": "2024-11-26T06:11:44Z",
-            "pushed_at": "2024-11-26T06:17:49Z",
-            "language": null,
-            "full_name": "vijaytakbhate2002/first-contributions",
-            "private": false,
-            "description": "\ud83d\ude80\u2728 Help beginners to contribute to open source projects",
-            "size": 23781
         },
         {
             "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/Hand-Gesture-Recognition-1/main/README.md",
@@ -421,13 +395,13 @@
             "repository_url": "https://github.com/vijaytakbhate2002/rest_api_with_flask_learning_repository",
             "repo_name": "rest_api_with_flask_learning_repository",
             "created_at": "2025-12-23T18:04:37Z",
-            "updated_at": "2025-12-23T18:06:58Z",
-            "pushed_at": "2025-12-23T18:06:54Z",
+            "updated_at": "2025-12-30T17:42:36Z",
+            "pushed_at": "2025-12-30T17:42:32Z",
             "language": "Python",
             "full_name": "vijaytakbhate2002/rest_api_with_flask_learning_repository",
             "private": false,
             "description": null,
-            "size": 42
+            "size": 3861
         },
         {
             "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/sentiment_prediction_python_package/main/README.md",
@@ -493,19 +467,6 @@
             "private": false,
             "description": "Used NVIDIA API to build Text-Text-Generator",
             "size": 3077
-        },
-        {
-            "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/The-Grand-Complete-Data-Science-Materials/main/README.md",
-            "repository_url": "https://github.com/vijaytakbhate2002/The-Grand-Complete-Data-Science-Materials",
-            "repo_name": "The-Grand-Complete-Data-Science-Materials",
-            "created_at": "2024-11-26T09:22:13Z",
-            "updated_at": "2024-11-26T09:22:13Z",
-            "pushed_at": "2024-11-26T09:37:19Z",
-            "language": null,
-            "full_name": "vijaytakbhate2002/The-Grand-Complete-Data-Science-Materials",
-            "private": false,
-            "description": "Contribution to Data Science Learning Community",
-            "size": 5369
         },
         {
             "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/todo-app/main/README.md",
@@ -584,19 +545,6 @@
             "private": false,
             "description": "My personal profile repository",
             "size": 5763
-        },
-        {
-            "download_url": "https://raw.githubusercontent.com/vijaytakbhate2002/Welcome-to-Open-Source/master/README.md",
-            "repository_url": "https://github.com/vijaytakbhate2002/Welcome-to-Open-Source",
-            "repo_name": "Welcome-to-Open-Source",
-            "created_at": "2024-11-26T05:37:23Z",
-            "updated_at": "2024-11-26T05:58:43Z",
-            "pushed_at": "2024-11-26T05:58:39Z",
-            "language": null,
-            "full_name": "vijaytakbhate2002/Welcome-to-Open-Source",
-            "private": false,
-            "description": "Make your first PR request! And enter the world of Open Source Contributions \ud83c\udf49",
-            "size": 80333
         }
     ]
 }

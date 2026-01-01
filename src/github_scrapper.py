@@ -44,7 +44,10 @@ class GithubScrapper:
         "User-Agent": "readme-pdf-generator",
         "Authorization": f"Bearer {TOKEN_GITHUB}"
         }
-    
+
+
+    AVOID_REPOS = ['The-Grand-Complete-Data-Science-Materials', 'Welcome-to-Open-Source', 'contribute-to-open-source', 'first-contributions']
+    # AVOID_REPOS = map(lambda x: x.lower(), AVOID_REPOS)
 
     def __init__(self, username:str, save_folder:str, metadata_save_folder:str) -> None:
         self.username = username
@@ -91,6 +94,11 @@ class GithubScrapper:
             private = repo_info['private']
             description = repo_info['description']
             repo_url = repo_info['html_url']
+
+            if repo_name in self.AVOID_REPOS:
+                logger.info("Skipping repo %s as it's in AVOID_REPOS list", repo_name)
+                print(f" Skipping repo {repo_name} as it's in AVOID_REPOS list")
+                continue
 
             repo_api = f"https://api.github.com/repos/{self.username}/{repo_name}/readme"
 
